@@ -1,0 +1,45 @@
+/* Basic styling for the calculator */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    display: inline-block;
+    border: 4px solid #07aec1;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.screen {
+    background-color: #0496af;
+    padding: 30px;
+}
+
+#display {
+    width: 100%;
+    border: none;
+    font-size: 70px;
+    text-align: right;
+    outline: none;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    padding: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: #00a8be;
+    border: 1px solid #ffffff; /* Add border to create lines between buttons */
+}
+
+/* Button hover effect */
+button:hover {
+    background: #d7e913;
+}
