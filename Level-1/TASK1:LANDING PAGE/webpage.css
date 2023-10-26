@@ -13,7 +13,7 @@ body {
     padding: 20px;
 }
 
-/* Styling for the image */
+
 .image {
     flex: 1;
 }
@@ -25,7 +25,7 @@ body {
     display: block;
 }
 
-/* Styling for the content */
+
 .content {
     flex: 1;
     text-align: center;
@@ -42,7 +42,7 @@ body {
     color: #ffffff;
 }
 
-/* Add CSS for layout with modified class names */
+
 .custom-container {
     display: flex;
     align-items: center;
@@ -50,17 +50,16 @@ body {
 }
 
 .custom-image {
-    flex: 1; /* The image takes one-third of the available space */
-    text-align: center; /* Center-align the image */
+    flex: 1; 
+    text-align: center; 
 }
 
 .custom-content {
-    flex: 2; /* The content takes two-thirds of the available space */
+    flex: 2; 
     padding: 20px;
     color: white;
 }
-/* Add CSS for the grid layout */
-/* Add CSS for the grid layout */
+
 .grid-container {
     display: flex;
     justify-content: space-between;
@@ -76,8 +75,7 @@ body {
     border: 1px solid #ff0000;
     background-color: #0045a5;
     border-radius: 5px;
-    margin: 10px; /* Add margin to create space between grid items */
-}
+    margin: 10px;
 
 h2 {
     font-size: 1.5rem;
@@ -88,8 +86,7 @@ p {
     font-size: 1rem;
     color: white;
 }
-/* Styling for the new structure */
-/* Styles for the new-container */
+
 .new-container {
     display: flex;
     justify-content: space-between;
@@ -122,5 +119,5 @@ p {
 .new-content p {
     font-size: 18px;
     margin-bottom: 20px;
-    color: white; /* Add space between each set of heading and paragraph */
+    color: white;
 }
