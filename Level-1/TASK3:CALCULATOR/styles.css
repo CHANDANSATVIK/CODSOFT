@@ -1,4 +1,4 @@
-/* Basic styling for the calculator */
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -36,10 +36,10 @@ button {
     border: none;
     outline: none;
     background: #00a8be;
-    border: 1px solid #ffffff; /* Add border to create lines between buttons */
+    border: 1px solid #ffffff; 
 }
 
-/* Button hover effect */
+
 button:hover {
     background: #d7e913;
 }
